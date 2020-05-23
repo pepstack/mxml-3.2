@@ -1,0 +1,118 @@
+*.o
+Makefile
+autom4te.cache
+/config.h
+config.log
+config.status
+libmxml.1.dylib
+libmxml.a
+libmxml.dylib
+libmxml.sl
+libmxml.sl.1
+libmxml.so
+libmxml.so.1
+libmxml.so.1.6
+mxml.pc
+scratch
+temp1.xmlfd
+test.xmlfd
+testmxml
+test1.xml
+vcnet/.vs
+vcnet/Debug
+vcnet/Release
+vcnet/packages
+xcode/mxml.xcodeproj/project.xcworkspace
+xcode/mxml.xcodeproj/xcuserdata
+
+#####################################################
+# Prerequisites
+*.d
+*.pyc
+*.stackdump
+
+# unauthorized properties
+src/shmmap.h
+
+./libclogger.a
+./logapp
+
+.git/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# MS VC files
+*.sdf
+*.opensdf
+*.suo
+*.VC.db
+*.VC.opendb
+
+.vs/
+build/
+target/
+
+# Linker output
+*.ilk
+*.map
+*.exp
+*.iobj
+*.ipdb
+
+# Precompiled Headers
+*.gch
+*.pch
+*.Po
+
+# Libraries
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Temporary Files
+stamp-h1
+*~
+~*
+*.log
+*.dirstamp
+*.scan
+*.m4
+m4/
+libs/
+local-pkgs/
+.deps/
+.libs/
+autom4te.cache/
+logs/
+wrappers/gen-projects/
+wrappers/clogdbcfg/*.dbcfg
